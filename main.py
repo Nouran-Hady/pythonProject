@@ -5,6 +5,6 @@ try:
     output=mycon.send_command('show running-config')
     print(output)
     mycon.disconnect()
-except Exception as err:
-    print(err)
+except Exception as error:
+    print(error)
 
